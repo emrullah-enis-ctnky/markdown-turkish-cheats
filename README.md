@@ -1,247 +1,156 @@
-Markdown Cheatsheet<a name="TOP"></a>
+### Markdown Kılavuz<a name="TOP"></a>
 ===================
 
-- - - - 
-# Heading 1 #
+- - - -  
+# Başlık 1 #
 
-    Markup :  # Heading 1 #
+    Biçimlendirme:  # Başlık 1 #
 
-    -OR-
+    -VEYA-
 
-    Markup :  ============= (below H1 text)
+    Biçimlendirme:  ============= (Başlık 1 metninin altına)
 
-## Heading 2 ##
+## Başlık 2 ##
 
-    Markup :  ## Heading 2 ##
+    Biçimlendirme:  ## Başlık 2 ##
 
-    -OR-
+    -VEYA-
 
-    Markup: --------------- (below H2 text)
+    Biçimlendirme: --------------- (Başlık 2 metninin altına)
 
-### Heading 3 ###
+### Başlık 3 ###
 
-    Markup :  ### Heading 3 ###
+    Biçimlendirme:  ### Başlık 3 ###
 
-#### Heading 4 ####
+#### Başlık 4 ####
 
-    Markup :  #### Heading 4 ####
+    Biçimlendirme:  #### Başlık 4 ####
 
 
-Common text
+Genel metin
 
-    Markup :  Common text
+    Biçimlendirme:  Genel metin
 
-_Emphasized text_
+_Vurgulanmış metin_
 
-    Markup :  _Emphasized text_ or *Emphasized text*
+    Biçimlendirme:  _Vurgulanmış metin_ veya *Vurgulanmış metin*
 
-~~Strikethrough text~~
+~~Üstü çizili metin~~
 
-    Markup :  ~~Strikethrough text~~
+    Biçimlendirme:  ~~Üstü çizili metin~~
 
-__Strong text__
+__Kalın metin__
 
-    Markup :  __Strong text__ or **Strong text**
+    Biçimlendirme:  __Kalın metin__ veya **Kalın metin**
 
-___Strong emphasized text___
+___Kalın ve vurgulanmış metin___
 
-    Markup :  ___Strong emphasized text___ or ***Strong emphasized text***
+    Biçimlendirme:  ___Kalın ve vurgulanmış metin___ veya ***Kalın ve vurgulanmış metin***
 
-[Named Link](http://www.google.fr/ "Named link title") and http://www.google.fr/ or <http://example.com/>
+[Adlandırılmış Bağlantı](http://www.google.com/ "Adlandırılmış bağlantı başlığı") ve http://www.google.com/ veya <http://example.com/>
 
-    Markup :  [Named Link](http://www.google.fr/ "Named link title") and http://www.google.fr/ or <http://example.com/>
+    Biçimlendirme:  [Adlandırılmış Bağlantı](http://www.google.com/ "Adlandırılmış bağlantı başlığı") ve http://www.google.com/ veya <http://example.com/>
 
-[heading-1](#heading-1 "Goto heading-1")
+[başlık-1](#başlık-1 "başlık-1'e git")
     
-    Markup: [heading-1](#heading-1 "Goto heading-1")
+    Biçimlendirme: [başlık-1](#başlık-1 "başlık-1'e git")
 
-Table, like this one :
+Tablo, aşağıdaki gibi:
 
-First Header  | Second Header
+İlk Başlık  | İkinci Başlık
 ------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+İçerik Hücresi  | İçerik Hücresi
+İçerik Hücresi  | İçerik Hücresi
 
-```
-First Header  | Second Header
+
+Bir hücreye `|` eklemek:
+
+İlk Başlık  | İkinci Başlık
 ------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
-```
+İçerik Hücresi  | İçerik Hücresi
+İçerik Hücresi  | \|
 
-Adding a pipe `|` in a cell :
 
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | \|
+Sola, sağa ve ortaya hizalanmış tablo:
 
-```
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  |  \| 
-```
-
-Left, right and center aligned table
-
-Left aligned Header | Right aligned Header | Center aligned Header
+Sola Hizalanmış Başlık | Sağa Hizalanmış Başlık | Ortaya Hizalanmış Başlık
 | :--- | ---: | :---:
-Content Cell  | Content Cell | Content Cell
-Content Cell  | Content Cell | Content Cell
+İçerik Hücresi  | İçerik Hücresi | İçerik Hücresi
+İçerik Hücresi  | İçerik Hücresi | İçerik Hücresi
 
-```
-Left aligned Header | Right aligned Header | Center aligned Header
-| :--- | ---: | :---:
-Content Cell  | Content Cell | Content Cell
-Content Cell  | Content Cell | Content Cell
-```
 
 `code()`
 
-    Markup :  `code()`
+    Biçimlendirme:  `code()`
 
 ```javascript
-    var specificLanguage_code = 
+    var ornekKod = 
     {
-        "data": {
-            "lookedUpPlatform": 1,
-            "query": "Kasabian+Test+Transmission",
-            "lookedUpItem": {
-                "name": "Test Transmission",
-                "artist": "Kasabian",
-                "album": "Kasabian",
-                "picture": null,
-                "link": "http://open.spotify.com/track/5jhJur5n4fasblLSCOcrTp"
+        "veri": {
+            "aramaPlatformu": 1,
+            "sorgu": "Kasabian+Test+Transmission",
+            "bulunanÖğe": {
+                "isim": "Test Transmission",
+                "sanatçı": "Kasabian",
+                "albüm": "Kasabian",
+                "resim": null,
+                "bağlantı": "http://open.spotify.com/track/5jhJur5n4fasblLSCOcrTp"
             }
         }
     }
-```
+Biçimlendirme: ```javascript
+         ```
+ Biçimlendirme: * Madde işaretli liste
+              * İç içe madde işareti
+                  * Alt iç içe madde işareti vb.
+          * Madde işaretli liste öğesi 2
 
-    Markup : ```javascript
-             ```
+-VEYA-
 
-* Bullet list
-    * Nested bullet
-        * Sub-nested bullet etc
-* Bullet list item 2
+ Biçimlendirme: - Madde işaretli liste
+              - İç içe madde işareti
+                  - Alt iç içe madde işareti vb.
+          - Madde işaretli liste öğesi 2 
+ Biçimlendirme: 1. Numaralandırılmış liste
+              1. İç içe numaralandırılmış liste
+              2. Numaralı liste öğesi
+          2. Numaralı liste öğesi
+ Biçimlendirme: - [ ] Tamamlanmamış görev
+          - [x] Tamamlanmış görev Biçimlendirme: - [ ] Tamamlanmamış görev
+              - [ ] Alt görev
 
-~~~
- Markup : * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
-
--OR-
-
- Markup : - Bullet list
-              - Nested bullet
-                  - Sub-nested bullet etc
-          - Bullet list item 2 
-~~~
-
-1. A numbered list
-    1. A nested numbered list
-    2. Which is numbered
-2. Which is numbered
-
-~~~
- Markup : 1. A numbered list
-              1. A nested numbered list
-              2. Which is numbered
-          2. Which is numbered
-~~~
-
-- [ ] An uncompleted task
-- [x] A completed task
-
-~~~
- Markup : - [ ] An uncompleted task
-          - [x] A completed task
-~~~
-
-- [ ] An uncompleted task
-    - [ ] A subtask
-
-~~~
- Markup : - [ ] An uncompleted task
-              - [ ] A subtask
-~~~
-
-> Blockquote
->> Nested blockquote
-
-    Markup :  > Blockquote
-              >> Nested Blockquote
-
-_Horizontal line :_
-- - - -
-
-    Markup :  - - - -
-
-_Image with alt :_
-
-![picture alt](http://via.placeholder.com/200x150 "Title is optional")
-
-    Markup : ![picture alt](http://via.placeholder.com/200x150 "Title is optional")
-
-Foldable text:
-
-<details>
-  <summary>Title 1</summary>
-  <p>Content 1 Content 1 Content 1 Content 1 Content 1</p>
-</details>
-<details>
-  <summary>Title 2</summary>
-  <p>Content 2 Content 2 Content 2 Content 2 Content 2</p>
-</details>
-
-    Markup : <details>
-               <summary>Title 1</summary>
-               <p>Content 1 Content 1 Content 1 Content 1 Content 1</p>
-             </details>
-
-```html
+Biçimlendirme:  > Alıntı
+          >> İç içe alıntı
+Biçimlendirme:  - - - -
+Biçimlendirme: ![resim açıklaması](http://via.placeholder.com/200x150 "Başlık isteğe bağlıdır")
+Biçimlendirme: <details>
+           <summary>Başlık 1</summary>
+           <p>İçerik 1 İçerik 1 İçerik 1 İçerik 1 İçerik 1</p>
+         </details>
 <h3>HTML</h3>
-<p> Some HTML code here </p>
-```
-
-Link to a specific part of the page:
-
-[Go To TOP](#TOP)
-   
-    Markup : [text goes here](#section_name)
-              section_title<a name="section_name"></a>    
-
-Hotkey:
-
-<kbd>⌘F</kbd>
-
-<kbd>⇧⌘F</kbd>
-
-    Markup : <kbd>⌘F</kbd>
-
-Hotkey list:
-
-| Key | Symbol |
-| --- | --- |
-| Option | ⌥ |
-| Control | ⌃ |
-| Command | ⌘ |
-| Shift | ⇧ |
-| Caps Lock | ⇪ |
-| Tab | ⇥ |
-| Esc | ⎋ |
-| Power | ⌽ |
-| Return | ↩ |
-| Delete | ⌫ |
-| Up | ↑ |
-| Down | ↓ |
-| Left | ← |
-| Right | → |
+<p> Buraya bazı HTML kodları gelir </p>
+Biçimlendirme: [buraya metin gelir](#bölüm_adı)
+          bölüm_başlığı<a name="bölüm_adı"></a>    
+Biçimlendirme: <kbd>⌘F</kbd>
+Kısayol tuşu listesi:
+Tuş	Sembol
+Seçenek	⌥
+Kontrol	⌃
+Komut	⌘
+Shift	⇧
+Caps Lock	⇪
+Sekme	⇥
+Escape	⎋
+Güç	⌽
+Enter	↩
+Sil	⌫
+Yukarı	↑
+Aşağı	↓
+Sol	←
+Sağ	→
 
 Emoji:
 
-:exclamation: Use emoji icons to enhance text. :+1:  Look up emoji codes at [emoji-cheat-sheet.com](http://emoji-cheat-sheet.com/)
+:exclamation: Metni vurgulamak için emoji simgelerini kullanın. :+1: Emoji kodlarını emoji-cheat-sheet.com adresinden bulun.
 
-    Markup : Code appears between colons :EMOJICODE:
+Biçimlendirme: Kod iki nokta işareti arasına yazılır :EMOJIKODU:
