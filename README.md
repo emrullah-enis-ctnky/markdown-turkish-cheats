@@ -127,27 +127,30 @@ Biçimlendirme: <details>
            <summary>Başlık 1</summary>
            <p>İçerik 1 İçerik 1 İçerik 1 İçerik 1 İçerik 1</p>
          </details>
+```html
 <h3>HTML</h3>
 <p> Buraya bazı HTML kodları gelir </p>
+```
 Biçimlendirme: [buraya metin gelir](#bölüm_adı)
           bölüm_başlığı<a name="bölüm_adı"></a>    
 Biçimlendirme: <kbd>⌘F</kbd>
 Kısayol tuşu listesi:
-Tuş	Sembol
-Seçenek	⌥
-Kontrol	⌃
-Komut	⌘
-Shift	⇧
-Caps Lock	⇪
-Sekme	⇥
-Escape	⎋
-Güç	⌽
-Enter	↩
-Sil	⌫
-Yukarı	↑
-Aşağı	↓
-Sol	←
-Sağ	→
+|Tuş	|Sembol|
+|---|---|
+|Seçenek	|⌥|
+|Kontrol	|⌃|
+|Komut	|⌘|
+|Shift	|⇧|
+|Caps Lock	|⇪|
+|Sekme	|⇥|
+|Escape	|⎋|
+|Güç	|⌽|
+|Enter	|↩|
+|Sil	|⌫|
+|Yukarı	|↑|
+|Aşağı	|↓|
+|Sol	|←|
+|Sağ	|→|
 
 Emoji:
 
