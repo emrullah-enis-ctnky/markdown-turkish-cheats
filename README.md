@@ -61,7 +61,12 @@ Tablo, aşağıdaki gibi:
 ------------- | -------------
 İçerik Hücresi  | İçerik Hücresi
 İçerik Hücresi  | İçerik Hücresi
-
+~~~
+İlk Başlık  | İkinci Başlık
+------------- | -------------
+İçerik Hücresi  | İçerik Hücresi
+İçerik Hücresi  | İçerik Hücresi
+~~~
 
 Bir hücreye `|` eklemek:
 
@@ -69,7 +74,14 @@ Bir hücreye `|` eklemek:
 ------------- | -------------
 İçerik Hücresi  | İçerik Hücresi
 İçerik Hücresi  | \|
+~~~
+Bir hücreye `|` eklemek:
 
+İlk Başlık  | İkinci Başlık
+------------- | -------------
+İçerik Hücresi  | İçerik Hücresi
+İçerik Hücresi  | \|
+~~~
 
 Sola, sağa ve ortaya hizalanmış tablo:
 
@@ -77,13 +89,19 @@ Sola Hizalanmış Başlık | Sağa Hizalanmış Başlık | Ortaya Hizalanmış B
 | :--- | ---: | :---:
 İçerik Hücresi  | İçerik Hücresi | İçerik Hücresi
 İçerik Hücresi  | İçerik Hücresi | İçerik Hücresi
+~~~
+Sola, sağa ve ortaya hizalanmış tablo:
 
-
+Sola Hizalanmış Başlık | Sağa Hizalanmış Başlık | Ortaya Hizalanmış Başlık
+| :--- | ---: | :---:
+İçerik Hücresi  | İçerik Hücresi | İçerik Hücresi
+İçerik Hücresi  | İçerik Hücresi | İçerik Hücresi
+~~~
 `code()`
 
     Biçimlendirme:  `code()`
 
-```javascript
+~~~javascript
     var ornekKod = 
     {
         "veri": {
@@ -98,8 +116,10 @@ Sola Hizalanmış Başlık | Sağa Hizalanmış Başlık | Ortaya Hizalanmış B
             }
         }
     }
+~~~
 Biçimlendirme: ```javascript
          ```
+~~~
  Biçimlendirme: * Madde işaretli liste
               * İç içe madde işareti
                   * Alt iç içe madde işareti vb.
@@ -110,15 +130,30 @@ Biçimlendirme: ```javascript
  Biçimlendirme: - Madde işaretli liste
               - İç içe madde işareti
                   - Alt iç içe madde işareti vb.
-          - Madde işaretli liste öğesi 2 
+          - Madde işaretli liste öğesi 2
+~~~
  Biçimlendirme: 1. Numaralandırılmış liste
               1. İç içe numaralandırılmış liste
               2. Numaralı liste öğesi
           2. Numaralı liste öğesi
+~~~
+ Biçimlendirme: 1. Numaralandırılmış liste
+              1. İç içe numaralandırılmış liste
+              2. Numaralı liste öğesi
+          2. Numaralı liste öğesi
+~~~
  Biçimlendirme: - [ ] Tamamlanmamış görev
-          - [x] Tamamlanmış görev Biçimlendirme: - [ ] Tamamlanmamış görev
+          - [x] Tamamlanmış görev Biçimlendirme: 
+~~~
+ Biçimlendirme: - [ ] Tamamlanmamış görev
+          - [x] Tamamlanmış görev Biçimlendirme:
+~~~
+          - [ ] Tamamlanmamış görev
               - [ ] Alt görev
-
+~~~
+          - [ ] Tamamlanmamış görev
+              - [ ] Alt görev
+~~~
 Biçimlendirme:  > Alıntı
           >> İç içe alıntı
 Biçimlendirme:  - - - -
